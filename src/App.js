@@ -1,6 +1,9 @@
 // import libraries
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
+// import styles
+import "bootstrap/dist/css/bootstrap.min.css";
+
 // import pages
 import Home from "./pages/Home";
 import About from "./pages/About";
