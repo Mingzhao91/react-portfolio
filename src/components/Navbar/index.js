@@ -15,17 +15,17 @@ function Navbar() {
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   return (
-    <nav className="navbar navbar-expand-sm portfolio-navbar">
+    <nav className="navbar navbar-expand-sm portfolio-navbar text-bg-light">
       <div class="container-fluid">
         <Link className="navbar-brand font-weight-bolder" to="/">
           <img
             src={Avatar}
             alt="Logo"
-            width="36"
-            height="36"
-            className="vertical-align-middle"
+            width="40"
+            height="40"
+            className="vertical-align-middle avatar"
           />
-          <span className="">Mingzhao Zhou</span>
+          <span className="name">Mingzhao Zhou</span>
         </Link>
         <button
           className="navbar-toggler"
