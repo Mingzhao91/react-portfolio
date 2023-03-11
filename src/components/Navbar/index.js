@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-sm portfolio-navbar text-bg-light">
-      <div class="container-fluid">
+      <div className="container-fluid">
         <Link className="navbar-brand font-weight-bolder" to="/">
           <img
             src={Avatar}
@@ -40,7 +40,7 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          class={`${isNavCollapsed ? "collapse" : ""} navbar-collapse`}
+          className={`${isNavCollapsed ? "collapse" : ""} navbar-collapse`}
           id="navbarNav"
         >
           {/* list of navigation links */}
