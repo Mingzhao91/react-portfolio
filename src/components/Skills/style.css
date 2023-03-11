@@ -1,0 +1,82 @@
+.skills {
+  height: 340px;
+  margin: 0 0 20px;
+  position: relative;
+}
+
+.skill {
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.javascript {
+  background: url("../../assets/images/icons/javascript.svg") no-repeat center;
+  left: 14%;
+  top: 5%;
+}
+
+.bootstrap {
+  background: url("../../assets/images/icons/bootstrap.svg") no-repeat center;
+  left: 63%;
+  top: 33%;
+}
+
+.css3 {
+  background: url("../../assets/images/icons/css3.svg") no-repeat center;
+  top: 71%;
+  right: 60%;
+}
+
+.github {
+  background: url("../../assets/images/icons/github.svg") no-repeat center;
+  top: 13%;
+  right: 10%;
+}
+
+.html {
+  background: url("../../assets/images/icons/html5.svg") no-repeat center;
+  left: 2%;
+  bottom: 49%;
+}
+
+.jquery {
+  background: url("../../assets/images/icons/jquery.svg") no-repeat center;
+  top: 50%;
+  left: 43%;
+  width: 100px;
+}
+
+.nodejs {
+  background: url("../../assets/images/icons/nodejs.svg") no-repeat center;
+  bottom: 20%;
+  right: 24%;
+}
+
+.react {
+  background: url("../../assets/images/icons/react.svg") no-repeat center;
+  left: 40%;
+  top: 20%;
+}
+
+.bubble {
+  background: url("../../assets/images/icons/bubble.png") no-repeat center;
+  background-size: contain;
+  right: 35%;
+  top: 1%;
+  width: 120px;
+}
+
+.servoy {
+  background: url("../../assets/images/icons/servoy.png") no-repeat center;
+  background-size: contain;
+  left: 21%;
+  top: 48%;
+  width: 110px;
+}
+
+@media only screen and (max-width: 768px) {
+  .skills {
+    height: 300px;
+  }
+}
