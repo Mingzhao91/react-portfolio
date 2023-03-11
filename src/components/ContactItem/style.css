@@ -1,0 +1,26 @@
+.contact-details-title {
+  font-size: 10px;
+  font-weight: 700;
+  color: #818183;
+  margin-bottom: 10px;
+}
+
+.contact-details-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-link {
+  height: 32px;
+  display: inline-block;
+  text-decoration: none;
+  display: inline-block;
+  transition: all ease-out 0.5s;
+  font-weight: 600;
+}
+
+.contact-link:hover {
+  border-bottom: 1px solid white;
+  transform: translate(-3.769px, -5.037px) rotate(0.001deg);
+}
