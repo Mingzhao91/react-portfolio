@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import pages
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Contact/Contact";
 
 // import components
 import Navbar from "./components/Navbar";
