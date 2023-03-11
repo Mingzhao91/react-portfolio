@@ -5,6 +5,7 @@ import React from "react";
 import ContainerFluid from "../../components/ContainerFluid";
 import Row from "../../components/Row";
 import Col from "../../components/Col";
+import Skills from "../../components/Skills";
 
 // import styles
 import "./style.css";
@@ -31,6 +32,11 @@ function Home() {
             larger development team. Eager to tackle more complex problems and
             continue to find ways to maximize user efficiency.
           </p>
+        </Col>
+      </Row>
+      <Row>
+        <Col size="12">
+          <Skills />
         </Col>
       </Row>
     </ContainerFluid>
