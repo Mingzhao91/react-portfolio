@@ -1,0 +1,15 @@
+.home-container {
+  padding: 60px 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .home-container {
+    padding: 30px 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home-container {
+    padding: 10px;
+  }
+}
