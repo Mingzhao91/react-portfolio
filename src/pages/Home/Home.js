@@ -19,7 +19,7 @@ function Home() {
         </Col>
       </Row>
       <Row>
-        <Col size="12">
+        <Col size="md-10 sm-12" classes={["offset-md-1"]}>
           <p className="about">
             I am a highly competent Bubble.io developer and Servoy developer
             with 4 years experience developing a wide range of applications for
