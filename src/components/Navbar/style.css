@@ -7,3 +7,20 @@
   color: #3d2231;
   font-weight: 500px;
 }
+
+.navbar-toggler {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-toggler-icon {
+  font-size: 10px;
+}
+
+.nav-link {
+  text-align: center;
+}
