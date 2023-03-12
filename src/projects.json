@@ -41,9 +41,9 @@
   },
   {
     "id": 6,
-    "name": "Codeing Quiz",
+    "name": "Coding Quiz",
     "image": "assets/projectsScreenshots/codingQuiz.png",
-    "description": "This is a coding quiz challenge to test JavaScript skills. There are some questions in this challenge and it's given 75 seconds to complete all questions. Time is subtracted from the countdown timer if a wrong answer is given. This quiz challenge ends when all questions are answered or the time is up. The challenger will be given the final score for this challenge and the challenger can save the score with initials. The scoreboard lists out all the scores that each challenger is saved so that the challenger can keep track of the progress. The application also provides an option for the challenger to clear all the scores and starts the quiz again.\nChallengers can restart the quiz as many times as they want but the options for each question will be shown in different order for each game. This requires the challenger to look into the options to select the correct one each time rather than letting them memorise where the position of the correct option is.",
+    "description": "This is a coding quiz challenge to test JavaScript skills. There are some questions in this challenge and it's given 75 seconds to complete all questions. Time is subtracted from the countdown timer if a wrong answer is given. This quiz challenge ends when all questions are answered or the time is up. The challenger will be given the final score for this challenge and the challenger can save the score with initials. The scoreboard lists out all the scores that each challenger is saved so that the challenger can keep track of the progress. ",
     "repoUrl": "https://github.com/Mingzhao91/Coding-Quiz",
     "appUrl": "https://mingzhao91.github.io/Coding-Quiz/"
   }
