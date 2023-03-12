@@ -1,5 +1,5 @@
 // import libraries
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 // import styles
 import "bootstrap/dist/css/bootstrap.min.css";
