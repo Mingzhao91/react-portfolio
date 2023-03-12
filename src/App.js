@@ -1,5 +1,5 @@
 // import libraries
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 // import styles
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,7 +15,7 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div>
         <Navbar />
         <Wrapper>
@@ -26,7 +26,7 @@ function App() {
           </Routes>
         </Wrapper>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
