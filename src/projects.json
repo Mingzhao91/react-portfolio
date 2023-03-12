@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Sightseeing Guide(Team Project)",
-    "image": "./assets/projectsScreenshots/sightseeingGuide.png",
+    "image": "assets/projectsScreenshots/sightseeingGuide.png",
     "description": "Our team has developed a comprehensive, user-friendly website that integrates both Wikipedia and Google APIs to provide a wealth of geographic and historical information to users. The website is designed to serve as an interactive platform for exploring various locations and gaining insights into their history and significance.",
     "repoUrl": "https://github.com/macaulam/sightseeing-guide",
     "appUrl": "https://macaulam.github.io/sightseeing-guide/"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Team Profile Generator",
-    "image": "./assets/projectsScreenshots/teamProfileGenerator.png",
+    "image": "assets/projectsScreenshots/sightseeingGuide.png",
     "description": "The command-line application allows users to quickly and easily generate an HTML file by simply providing essential information about the employees in a team. The HTML shows each team member in a card where users can see their information, send Email to them or view their GitHub repositories. This project uses class and class inheritance to create different types of employee such as manager, engineer and intern to help in reusability of the code. The application uses Jest for running unit tests and Inquirer for collecting input from the user.",
     "repoUrl": "https://github.com/Mingzhao91/team-profile-generator",
     "appUrl": "https://github.com/Mingzhao91/team-profile-generator"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Readme File Generator",
-    "image": "./assets/projectsScreenshots/readmeFileGenerator.png",
+    "image": "assets/projectsScreenshots/readmeFileGenerator.png",
     "description": "The command-line application allows users to quickly and easily create a README file by simply providing essential information about the project. The README files are divided into the following sections: Title, Description,Table of Contents, Installation, Usage, Contributing, License, Tests and Questions. By simplifying the process of writing a README.md file, the project creator can devote more time to working on the project itself.",
     "repoUrl": "https://github.com/Mingzhao91/readme-file-generator",
     "appUrl": "https://github.com/Mingzhao91/readme-file-generator"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Weather Dashboard",
-    "image": "./assets/projectsScreenshots/weatherDashboard.png",
+    "image": "assets/projectsScreenshots/weatherDashboard.png",
     "description": "The application gets the weather forecast for cities using the 5 Day/3 Hour Forecast API and Geocoder API from OpenWeather. All cities that have been searched for are stored in the local storage and they will be retrieved back to the application everytime the application is loaded. The weather result is split into two parts. The key information about the weather including the temperature, wind speed and humidity for today shows on the top and the 5-day weather forecasts are shown at the bottom.",
     "repoUrl": "https://github.com/Mingzhao91/weather-dashboard",
     "appUrl": "https://mingzhao91.github.io/weather-dashboard/"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Daily Planner",
-    "image": "./assets/projectsScreenshots/dailyPlanner",
+    "image": "assets/projectsScreenshots/dailyPlanner",
     "description": "The daily planner application is built using jQuery and Moment.js. This application has a table where each business hour shows as a row. Users can click on the middle column to insert an event for a timeblock. Clicking on the disk icon saves an event in the local storage. All saved events are restored when the page is loaded.",
     "repoUrl": "https://github.com/Mingzhao91/daily-planner",
     "appUrl": "https://mingzhao91.github.io/daily-planner/"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Codeing Quiz",
-    "image": "./assets/projectsScreenshots/codingQuiz.png",
+    "image": "assets/projectsScreenshots/codingQuiz.png",
     "description": "This is a coding quiz challenge to test JavaScript skills. There are some questions in this challenge and it's given 75 seconds to complete all questions. Time is subtracted from the countdown timer if a wrong answer is given. This quiz challenge ends when all questions are answered or the time is up. The challenger will be given the final score for this challenge and the challenger can save the score with initials. The scoreboard lists out all the scores that each challenger is saved so that the challenger can keep track of the progress. The application also provides an option for the challenger to clear all the scores and starts the quiz again.\nChallengers can restart the quiz as many times as they want but the options for each question will be shown in different order for each game. This requires the challenger to look into the options to select the correct one each time rather than letting them memorise where the position of the correct option is.",
     "repoUrl": "https://github.com/Mingzhao91/Coding-Quiz",
     "appUrl": "https://mingzhao91.github.io/Coding-Quiz/"
