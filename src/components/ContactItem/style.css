@@ -24,3 +24,14 @@
   border-bottom: 1px solid white;
   transform: translate(-3.769px, -5.037px) rotate(0.001deg);
 }
+
+@media only screen and (max-width: 768px) {
+  .contact-item-wrapper {
+    width: 100%;
+  }
+
+  .contact-details-title,
+  .contact-item {
+    text-align: center;
+  }
+}

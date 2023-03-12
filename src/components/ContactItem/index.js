@@ -6,7 +6,7 @@ import "./style.css";
 
 function ContactItem(props) {
   return (
-    <div className="mb-3">
+    <div className="contact-item-wrapper mb-3">
       <p className="contact-details-title">{props.title}</p>
       <div className="contact-details-list">
         <ul className="contact-details-list">
