@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab589489.css",
+    "main.js": "/static/js/main.75101c7d.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/avatar.png": "/static/media/avatar.600dcbe40b7f8b87dc9e.png",
+    "static/media/bubble.png": "/static/media/bubble.d4d5d758463fe148f418.png",
+    "static/media/servoy.png": "/static/media/servoy.6a8f3f3cd389d4343eea.png",
+    "static/media/jquery.svg": "/static/media/jquery.a130a55c36943a44f7c5.svg",
+    "static/media/github.svg": "/static/media/github.f5dcb2c90dd955b936fd.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.e04c952e87656caf6bc0.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.08b5ddcd32f41376d468.svg",
+    "static/media/react.svg": "/static/media/react.4803bac2e49aec516b73.svg",
+    "static/media/css3.svg": "/static/media/css3.3f56ea17468bc4cbc4ef.svg",
+    "static/media/html5.svg": "/static/media/html5.4519b6f7771f900cfd8e.svg",
+    "index.html": "/index.html",
+    "static/media/javascript.svg": "/static/media/javascript.b561c63179195aea872a.svg",
+    "main.ab589489.css.map": "/static/css/main.ab589489.css.map",
+    "main.75101c7d.js.map": "/static/js/main.75101c7d.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab589489.css",
+    "static/js/main.75101c7d.js"
+  ]
+}
