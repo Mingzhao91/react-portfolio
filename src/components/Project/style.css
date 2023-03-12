@@ -1,0 +1,72 @@
+.project-name {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: ui-monospace;
+}
+
+.panel-left {
+  flex: 0 1 30%;
+}
+
+.panel-right {
+  flex: 0 1 65%;
+}
+
+.project-img-wrapper {
+  width: 100%;
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project-description {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.project-btn {
+  border: 1px solid black;
+  border-radius: 20px;
+  transition: all ease-in 0.5s;
+}
+
+.project-btn:hover {
+  background-color: rgba(44, 17, 32, 1);
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .project-name {
+    font-size: 20px;
+  }
+
+  .project-description {
+    font-size: 10px;
+  }
+
+  .project-btn {
+    padding: 3px 6px;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .panel-left,
+  .panel-right {
+    flex: 1 1 100%;
+  }
+
+  .project-img-wrapper {
+    width: 150px;
+  }
+
+  .panel-left {
+    order: 0 !important;
+  }
+
+  .panel-right {
+    order: 1 !important;
+  }
+}
