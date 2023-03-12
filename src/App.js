@@ -12,7 +12,6 @@ import Contact from "./pages/Contact/Contact";
 // import components
 import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
-import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -26,7 +25,6 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Wrapper>
-        <Footer />
       </div>
     </Router>
   );
