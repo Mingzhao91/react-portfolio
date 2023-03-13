@@ -10,6 +10,8 @@
 
 .panel-right {
   flex: 0 1 65%;
+  border-radius: 15px;
+  background-color: rgba(44, 17, 32, 1);
 }
 
 .project-img-wrapper {
@@ -27,14 +29,14 @@
 }
 
 .project-btn {
-  border: 1px solid black;
+  border: 1px solid #ffffff;
   border-radius: 20px;
   transition: all ease-in 0.5s;
 }
 
 .project-btn:hover {
-  background-color: rgba(44, 17, 32, 1);
-  color: #ffffff;
+  background-color: #ffffff;
+  color: rgba(44, 17, 32, 1) !important;
 }
 
 @media screen and (max-width: 768px) {

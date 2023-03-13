@@ -28,18 +28,20 @@ function Project(props) {
       <div
         className={
           parseInt(props.id) % 2 === 0
-            ? "order-0 panel-right d-flex flex-column justify-content-center align-items-center"
-            : "order-1 panel-right d-flex flex-column justify-content-center align-items-center"
+            ? "order-0 panel-right d-flex flex-column justify-content-center align-items-center p-3"
+            : "order-1 panel-right d-flex flex-column justify-content-center align-items-center p-3"
         }
       >
-        <p className="mb-2 project-name">{props.name}</p>
-        <p className="mb-3 project-description">{props.description}</p>
+        <p className="mb-2 project-name text-light">{props.name}</p>
+        <p className="mb-3 project-description text-light">
+          {props.description}
+        </p>
         <div className="buttons">
           <a
             href={props.appUrl}
             target="_blank"
             rel="noreferrer"
-            className="btn project-btn me-3"
+            className="btn project-btn me-3 text-light"
           >
             Deployed Application
           </a>
@@ -47,7 +49,7 @@ function Project(props) {
             href={props.appUrl}
             target="_blank"
             rel="noreferrer"
-            className="btn project-btn"
+            className="btn project-btn text-light"
           >
             GitHub Repository
           </a>
