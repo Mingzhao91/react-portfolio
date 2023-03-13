@@ -4,13 +4,6 @@ import React from "react";
 // import style
 import "./style.css";
 
-// "id": 1,
-// "name": "Sightseeing Guide(Team Project)",
-// "image": "./assets/projectsScreenshots/sightseeingGuide.png",
-// "description": "Our team has developed a comprehensive, user-friendly website that integrates both Wikipedia and Google APIs to provide a wealth of geographic and historical information to users. The website is designed to serve as an interactive platform for exploring various locations and gaining insights into their history and significance.",
-// "repoUrl": "https://github.com/macaulam/sightseeing-guide",
-// "appUrl": "https://macaulam.github.io/sightseeing-guide/"
-
 function Project(props) {
   return (
     <div className="d-flex flex-wrap justify-content-between  p-4 project-wrapper">
